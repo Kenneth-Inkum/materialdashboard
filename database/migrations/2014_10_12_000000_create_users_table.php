@@ -23,7 +23,7 @@ class CreateUsersTable extends Migration
             $table->text('about')->nullable();
             $table->string('password');
             $table->rememberToken();
-            // $table->string('profile_photo_path', 2048)->nullable();
+            $table->string('profile_photo_path', 2048)->nullable();
             $table->softDeletes();
             $table->timestamps();
         });

@@ -34,7 +34,7 @@
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">table_view</i>
                     </div>
-                    <span class="nav-link-text ms-1">Tables</span>
+                    <span class="nav-link-text ms-1">{{ __('Tables') }}</span>
                 </a>
             </li>
             <li class="nav-item">
@@ -43,7 +43,7 @@
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">receipt_long</i>
                     </div>
-                    <span class="nav-link-text ms-1">Billing</span>
+                    <span class="nav-link-text ms-1">{{ __('Billing') }}</span>
                 </a>
             </li>
             {{-- <li class="nav-item">
@@ -70,7 +70,7 @@
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">notifications</i>
                     </div>
-                    <span class="nav-link-text ms-1">Notifications</span>
+                    <span class="nav-link-text ms-1">{{ __('Notifications') }}</span>
                 </a>
             </li>
             {{-- <li class="nav-item mt-3">
@@ -122,7 +122,7 @@
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i style="font-size: 1.2rem;" class="fas fa-user-circle ps-2 pe-2 text-center"></i>
                     </div>
-                    <span class="nav-link-text ms-1">Edit Profile</span>
+                    <span class="nav-link-text ms-1">{{ __('Edit Profile') }}</span>
                 </a>
             </li>
             @role('admin')
